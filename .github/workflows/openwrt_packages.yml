@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build:
-    name: openwrt_core - [${{ matrix.target }}]
+    name: openwrt_packages - [${{ matrix.target }}]
     runs-on: ubuntu-latest
     defaults:
       run:
