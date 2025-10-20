@@ -33,9 +33,9 @@ jobs:
       run: |
         sudo timedatectl set-timezone 'Asia/Shanghai'
         if [ "${{ matrix.target }}" = "aarch64_generic" ]; then
-            wget https://github.com/QuickWrt/openwrt_packages/releases/download/R201025-aarch64_generic/aarch64_cortex-a53-24.10.3.zip -O tmp.zip && unzip tmp.zip -d openwrt && rm -f tmp.zip
-        elif [ "${{ matrix.target }}" = "aarch64_cortex-a53" ]; then
             wget https://github.com/QuickWrt/openwrt_packages/releases/download/R201025-aarch64_generic/aarch64_generic-24.10.3.zip -O tmp.zip && unzip tmp.zip -d openwrt && rm -f tmp.zip
+        elif [ "${{ matrix.target }}" = "aarch64_cortex-a53" ]; then
+            wget https://github.com/QuickWrt/openwrt_packages/releases/download/R201025-aarch64_cortex-a53/aarch64_cortex-a53-24.10.3.zip -O tmp.zip && unzip tmp.zip -d openwrt && rm -f tmp.zip
         elif [ "${{ matrix.target }}" = "x86_64" ]; then
             wget https://github.com/QuickWrt/openwrt_packages/releases/download/R201025-x86_64/x86_64-24.10.3.zip -O tmp.zip && unzip tmp.zip -d openwrt && rm -f tmp.zip
         fi
