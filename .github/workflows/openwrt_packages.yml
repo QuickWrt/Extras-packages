@@ -1,0 +1,52 @@
+name: openwrt packages
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [sync]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: openwrt_core - [${{ matrix.target }}]
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    strategy:
+      matrix:
+        target:
+          - aarch64_generic
+          - aarch64_cortex-a53
+          - x86_64
+
+    steps:
+    - name: Checkout
+      continue-on-error: true
+      uses: actions/checkout@main
+      with:
+        ref: ${{ matrix.target }}
+
+    - name: Download Packages
+      run: |
+        sudo timedatectl set-timezone 'Asia/Shanghai'
+        if [ "${{ matrix.target }}" = "aarch64_generic" ]; then
+            wget https://github.com/QuickWrt/openwrt_packages/releases/download/R201025-aarch64_generic/aarch64_cortex-a53-24.10.3.zip -O tmp.zip && unzip tmp.zip -d openwrt && rm -f tmp.zip
+        elif [ "${{ matrix.target }}" = "aarch64_cortex-a53" ]; then
+            wget https://github.com/QuickWrt/openwrt_packages/releases/download/R201025-aarch64_generic/aarch64_generic-24.10.3.zip -O tmp.zip && unzip tmp.zip -d openwrt && rm -f tmp.zip
+        elif [ "${{ matrix.target }}" = "x86_64" ]; then
+            wget https://github.com/QuickWrt/openwrt_packages/releases/download/R201025-x86_64/x86_64-24.10.3.zip -O tmp.zip && unzip tmp.zip -d openwrt && rm -f tmp.zip
+        fi
+
+    - name: Download IPK Packaging Tool
+      run: |
+        wget 
+
+    - name: Install Usign
+      run: |
+        git clone --depth 1 -b master https://github.com/openwrt/usign
+        cd usign && mkdir -p build && cd build && cmake .. && make && sudo make install
+
+    - name: Install Usign
