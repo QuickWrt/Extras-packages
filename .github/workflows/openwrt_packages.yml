@@ -65,7 +65,7 @@ jobs:
         git config --global user.name "actions-user"
         cd openwrt
         [ ! -d .git ] && git init
-        git add --all
+        git add .
         Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
         git commit -sm "${Emoji[$RANDOM % ${#Emoji[@]}]} Sync $(date '+%Y-%m-%d %H:%M:%S)'" || echo "No changes to commit"
         # 强制推送到远端分支
