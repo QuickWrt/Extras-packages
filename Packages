@@ -1,0 +1,904 @@
+Package: airplay2-mbedtls
+Version: 4.3.7-r1
+Depends: libc, libpthread, alsa-lib, libconfig11, libdaemon, libpopt0, libplist, libsodium, libgcrypt, libffmpeg-full, libuuid1, nqptp, libmosquitto, libmbedtls21, libavahi-client, libsoxr
+Provides: airplay2
+License: MIT
+Section: sound
+URL: https://github.com/mikebrady/shairport-sync
+Architecture: aarch64_cortex-a53
+Installed-Size: 419840
+Filename: airplay2-mbedtls_4.3.7-r1_aarch64_cortex-a53.ipk
+Size: 167559
+SHA256sum: 64cc6b217ea3450614a79e8c279b05bfb97a06f701ebcec7745befd5cb54f126
+Description:  Shairport Sync plays audio from iTunes and AirPlay sources, including
+ iOS devices, Quicktime Player and third party sources such as forkedDaapd.
+ Audio played by a Shairport Sync-powered device stays synchronised with the source
+ and hence with similar devices playing the same source.
+ 
+ Shairport Sync does not support AirPlay video or photo streaming.
+ Ensure Kernel Modules > Sound Support > kmod-sound-core is selected.
+ Also select kmod-usb-audio if you want to use USB-connected sound cards.
+
+Package: airplay2-mini
+Version: 4.3.7-r1
+Depends: libc, libpthread, alsa-lib, libconfig11, libdaemon, libpopt0, libplist, libsodium, libgcrypt, libffmpeg-full, libuuid1, nqptp, libmosquitto, libmbedtls21
+Provides: airplay2
+License: MIT
+Section: sound
+URL: https://github.com/mikebrady/shairport-sync
+Architecture: aarch64_cortex-a53
+Installed-Size: 419840
+Filename: airplay2-mini_4.3.7-r1_aarch64_cortex-a53.ipk
+Size: 170641
+SHA256sum: 0f7530ed0a7331ebaf43d21d34bec1b5706deffff0ba30fdb4c4281bb81ef520
+Description:  Shairport Sync plays audio from iTunes and AirPlay sources, including
+ iOS devices, Quicktime Player and third party sources such as forkedDaapd.
+ Audio played by a Shairport Sync-powered device stays synchronised with the source
+ and hence with similar devices playing the same source.
+ 
+ Shairport Sync does not support AirPlay video or photo streaming.
+ Ensure Kernel Modules > Sound Support > kmod-sound-core is selected.
+ Also select kmod-usb-audio if you want to use USB-connected sound cards.
+ 
+ Minimal version uses mbed TLS and does not include libsoxr and avahi support.
+
+Package: airplay2-openssl
+Version: 4.3.7-r1
+Depends: libc, libpthread, alsa-lib, libconfig11, libdaemon, libpopt0, libplist, libsodium, libgcrypt, libffmpeg-full, libuuid1, nqptp, libmosquitto, libopenssl3, libavahi-client, libsoxr
+Provides: airplay2
+License: MIT
+Section: sound
+URL: https://github.com/mikebrady/shairport-sync
+Architecture: aarch64_cortex-a53
+Installed-Size: 419840
+Filename: airplay2-openssl_4.3.7-r1_aarch64_cortex-a53.ipk
+Size: 168136
+SHA256sum: f4ce1faada6305928dd83e85e536020453a0db4c7b0275d248f76ae7d54178e0
+Description:  Shairport Sync plays audio from iTunes and AirPlay sources, including
+ iOS devices, Quicktime Player and third party sources such as forkedDaapd.
+ Audio played by a Shairport Sync-powered device stays synchronised with the source
+ and hence with similar devices playing the same source.
+ 
+ Shairport Sync does not support AirPlay video or photo streaming.
+ Ensure Kernel Modules > Sound Support > kmod-sound-core is selected.
+ Also select kmod-usb-audio if you want to use USB-connected sound cards.
+
+Package: ddnsto
+Version: 3.0.4~aa64-r8
+Depends: libc
+Section: net
+URL: https://www.ddnsto.com/
+Architecture: all
+Installed-Size: 3328000
+Filename: ddnsto_3.0.4~aa64-r8_all.ipk
+Size: 1350067
+SHA256sum: 75bd6f9b67ccfd8e69e9b213fa7560f2fa2f7a0ec1caa32c7fcbb9723930cfb3
+Description:  DDNS.to is a reverse proxy
+
+Package: floatip
+Version: 1.0.9-r1
+Depends: libc, curl
+Section: net
+Architecture: all
+Installed-Size: 20480
+Filename: floatip_1.0.9-r1_all.ipk
+Size: 4163
+SHA256sum: 682cfbec58c1460a617a7d9dc88dc0600327b1bad11477511184c9e6efcd69ae
+Description:  Auto setup an IP if some host down
+
+Package: istoreenhance
+Version: 0.3.7~aa64-r5
+Depends: libc
+Section: net
+URL: https://www.kspeeder.com/
+Architecture: all
+Installed-Size: 10280960
+Filename: istoreenhance_0.3.7~aa64-r5_all.ipk
+Size: 4022623
+SHA256sum: 7cba044847cc1b94c6668e74a0a43ebcce794d6ed5b857907a1fe4a2d685772e
+Description:  Fix some net issues for istore
+
+Package: linkease
+Version: 1.7.5~aa64-r4
+Depends: libc, linkmount
+Section: net
+URL: https://www.linkease.com/
+Architecture: all
+Installed-Size: 46018560
+Filename: linkease_1.7.5~aa64-r4_all.ipk
+Size: 16098268
+SHA256sum: 8d8431f9b21ec040d19ce2238545c7bc299ff5b646afbfa5e74980218e0cc881
+Description:  LinkEase is a file cloud
+
+Package: linkmount
+Version: 1.0.3~aa64-r3
+Depends: libc
+Section: net
+URL: https://www.linkease.com/
+Architecture: all
+Installed-Size: 35287040
+Filename: linkmount_1.0.3~aa64-r3_all.ipk
+Size: 9986308
+SHA256sum: e2634443b01093dbd9e3e152745b136b712a9392b827aecfe46dcea788979d29
+Description:  LinkMount is used by LinkEase
+
+Package: luci-app-adguardhome
+Version: 25.293.14175~5899208
+Depends: libc, ca-certs, curl, wget-ssl, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 327680
+Filename: luci-app-adguardhome_25.293.14175~5899208_all.ipk
+Size: 92453
+SHA256sum: 92a9668d718c0c2416898bacfb69a60c8d93a9f35f43efa3610c3826608d7630
+Description:  LuCI support for AdGuardHome
+
+Package: luci-app-airconnect
+Version: 1.0.2-r1
+Depends: libc, airconnect
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-airconnect_1.0.2-r1_all.ipk
+Size: 2608
+SHA256sum: 49f9c13a0cb38f9854e6c5b6d9ef1a4ce237faacfd68ad67060be74c13f485c2
+Description:  LuCI support for AirConnect
+
+Package: luci-app-airplay2
+Version: 1.0.0-r1
+Depends: libc, alsa-utils, airplay2-openssl
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-airplay2_1.0.0-r1_all.ipk
+Size: 3071
+SHA256sum: 1633233dc855a99a789b11f8d0a9a7a035338d0f599a892566e6d84329f845d5
+Description:  Luci for Apple Airplay2 Receiver
+
+Package: luci-app-argon-config
+Version: 1.0-r20230608
+Depends: libc, luci-theme-argon
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-argon-config_1.0-r20230608_all.ipk
+Size: 4491
+SHA256sum: 574b9dfba78ac0c6fc08256cf65493da5dd336fa9ee89ca48d6dd0631adae17a
+Description:  LuCI app for Argon theme configuration
+
+Package: luci-app-ddnsto
+Version: 3.0.4-r1
+Depends: libc, ddnsto, block-mount, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 225280
+Filename: luci-app-ddnsto_3.0.4-r1_all.ipk
+Size: 76781
+SHA256sum: 885c21e3bf9e951940e01a2271ccf536cb40ccc960cfe1a39f16b46f35f97edf
+Description:  LuCI support for ddnsto
+
+Package: luci-app-floatip
+Version: 0.1.3-r1
+Depends: libc, floatip, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-floatip_0.1.3-r1_all.ipk
+Size: 2538
+SHA256sum: 17f443c6d780a93d1edbd5fef69fa3a8c76412e77fff96a3e6dfb1f380063c1d
+Description:  LuCI support for floatip
+
+Package: luci-app-istoreenhance
+Version: 0.2.1-r1
+Depends: libc, istoreenhance, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-istoreenhance_0.2.1-r1_all.ipk
+Size: 3034
+SHA256sum: dbd3c200edbdf6b3efeb9c5427a16ab4b1895aa3379270ffaf20b0bbca1d067f
+Description:  LuCI support for KSpeeder
+
+Package: luci-app-istorex
+Version: 0.6.6-r1
+Depends: luci-lib-taskd (>=1.0.15), libc, luci-app-quickstart, luci-app-store, luci-lib-taskd, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 4976640
+Filename: luci-app-istorex_0.6.6-r1_all.ipk
+Size: 1750416
+SHA256sum: 94cf8ece9e0d010dc0767a8b6ce490723fab9d0684588eda27c5f88472bc0a1f
+Description:  IstoreX
+
+Package: luci-app-kucat
+Version: 1.1.1-r20250722
+Depends: libc, curl, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-kucat_1.1.1-r20250722_all.ipk
+Size: 7508
+SHA256sum: 6803b60a70d01e8d263476db1eb7884ff5b8100011b54bb6a34df1444f496449
+Description:  LuCI support for Kucat theme setting by sirpdboy
+
+Package: luci-app-linkease
+Version: 2.1.70-r2
+Depends: libc, linkease, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 3840000
+Filename: luci-app-linkease_2.1.70-r2_all.ipk
+Size: 1014909
+SHA256sum: ce071f5ebb82d56c58ad2d81fdd84de796e2af600bdf39528fdb5119981368b6
+Description:  LuCI support for linkease
+
+Package: luci-app-lucky
+Version: 2.2.2-r1
+Depends: libc, lucky, luci-compat, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-lucky_2.2.2-r1_all.ipk
+Size: 5870
+SHA256sum: 4343c782f0dc828bb6a92b113de58c691549c241d5f450bd351fdbdcb7567653
+Description:  LuCI Support for  lucky 
+
+Package: luci-app-mentohust
+Version: 1.0.2-r1
+Depends: libc, mentohust
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-mentohust_1.0.2-r1_all.ipk
+Size: 3067
+SHA256sum: 8af2e7ab1cefdee05e490f800b18c728fdd1a5829661de3aa81d96953c992cf5
+Description:  LuCI support for MentoHUST
+
+Package: luci-app-mosdns
+Version: 1.6.16-r1
+Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 389120
+Filename: luci-app-mosdns_1.6.16-r1_all.ipk
+Size: 103616
+SHA256sum: 28a316c4875be44d208698d5027c2e1033e711faa34eb40652b16a33ef43ed0d
+Description:  LuCI Support for mosdns
+
+Package: luci-app-netspeedtest
+Version: 1.1-r1
+Depends: libc, iperf3, speedtest-cli, curl, jsonfilter, taskset
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-netspeedtest_1.1-r1_all.ipk
+Size: 5076
+SHA256sum: 737bdf99b61259575759ad9ae55350da1f495a379e133c038d598933a857cff6
+Description:  LuCI Net Speedtest
+
+Package: luci-app-openlist2
+Version: 1.0.2-r1
+Depends: libc, openlist2
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-openlist2_1.0.2-r1_all.ipk
+Size: 5395
+SHA256sum: 45e568b8b98e787fbe5c94d529de6c7f68ec99d3dac16df7697c0ecc6f74b377
+Description:  LuCI support for openlist
+
+Package: luci-app-partexp
+Version: 1.3.1-r20250326
+Depends: libc, fdisk, block-mount, bc, blkid, parted, btrfs-progs, luci-lua-runtime
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-partexp_1.3.1-r20250326_all.ipk
+Size: 10069
+SHA256sum: 5a4b2cff185b574dac08785aff1a893a6fdd442003bd79d3c21db977252d2374
+Description:  LuCI Support for Automatic Partition Mount
+
+Package: luci-app-qbittorrent
+Version: 1.0.1-r1
+Depends: libc, qbittorrent
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-qbittorrent_1.0.1-r1_all.ipk
+Size: 2645
+SHA256sum: 3090e8c57952cce104506d2d6e8035f607d621ccc3bb5a682044d0395a2300f6
+Description:  LuCI support for qBittorrent
+
+Package: luci-app-quickfile
+Version: 1.0.0-r1
+Depends: libc, luci-nginx, quickfile
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-quickfile_1.0.0-r1_all.ipk
+Size: 1862
+SHA256sum: f8ef8fa2f4f4f0237df00c99ac5765652abad8fe532d3012dfe828dfe1c29c08
+Description:  LuCI File Manager module
+
+Package: luci-app-quickstart
+Version: 0.11.8-r1
+Depends: libc, quickstart, luci-app-store, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 1525760
+Filename: luci-app-quickstart_0.11.8-r1_all.ipk
+Size: 403320
+SHA256sum: 76ffcda23bdf97945508b3ecda15920b62ddfb0b24eca0d1ae9b42497457fd8f
+Description:  LuCI support for quickstart 
+
+Package: luci-app-ramfree
+Version: 1.0-r1
+Depends: libc
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-app-ramfree_1.0-r1_all.ipk
+Size: 1592
+SHA256sum: abb7c2b6c4205e8bc84293c9ec226a99c448b13686a31c3718b45ec8e8467550
+Description:  LuCI support for ramfree
+
+Package: luci-app-socat
+Version: 1.0-r6
+Depends: libc, socat, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-socat_1.0-r6_all.ipk
+Size: 4520
+SHA256sum: 4554dc199e1d9c7eed90e2b7cbba1617ad99b3debd7781103e168c37498c1f73
+Description:  LuCI support for Socat
+
+Package: luci-app-store
+Version: 0.1.29-6
+Depends: luci-lib-taskd (>=1.0.19), libc, curl, opkg, luci-lib-ipkg, tar, libuci-lua, mount-utils, luci-lib-taskd, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 389120
+Filename: luci-app-store_0.1.29-6_all.ipk
+Size: 112876
+SHA256sum: dc85b6badc02b602144e3fd309bd041f6f4beff67cc38f51fe8bf44c8081498a
+Description:  luci-app-store is a ipk store developed by LinkEase team
+
+Package: luci-app-unblockneteasemusic
+Version: 3.4-r1
+Depends: libc, dnsmasq-full, node, ipset
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 71680
+Filename: luci-app-unblockneteasemusic_3.4-r1_all.ipk
+Size: 14616
+SHA256sum: 50403f1df05d2341e52105474edb07fcce0b7bceb003db49a3700ae10a678f97
+Description:  LuCI support for UnblockNeteaseMusic (JavaScript)
+
+Package: luci-app-unishare
+Version: 1.0.0-r4
+Depends: libc, unishare, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-unishare_1.0.0-r4_all.ipk
+Size: 2923
+SHA256sum: 14d367b08c35cdf76c7f896d5ee5d358c56eadaaa0f4aae91353480b72870e15
+Description:  LuCI for UniShare
+
+Package: luci-app-usb-printer
+Version: 1.0-r2
+Depends: libc, p910nd, kmod-usb-printer, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-usb-printer_1.0-r2_all.ipk
+Size: 4149
+SHA256sum: a1e32276c4b9f69b4017cff27c7389acc9f3bffc6c50f5e6a276656a9d25a4da
+Description:  USB Printer Share via TCP/IP
+
+Package: luci-app-webdav
+Version: 1.0.0-r1
+Depends: libc, nginx-mod-dav-ext
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-webdav_1.0.0-r1_all.ipk
+Size: 4291
+SHA256sum: 8da98fcfef576c219ba992a9776c3c34f6291f31b0d317ec2eb5719a50646539
+Description:  LuCI support for WebDav
+
+Package: luci-app-wolplus
+Version: 1.0-r20201225
+Depends: libc, etherwake, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-wolplus_1.0-r20201225_all.ipk
+Size: 3085
+SHA256sum: 2e130a0eb389522ee06d40560e73010c7811c2d4737de2420f83f07d13e1f446
+Description:  LuCI support for wolplus From sundaqiang
+
+Package: luci-i18n-adguardhome-zh-cn
+Version: 25.293.14175~5899208
+Depends: libc, luci-app-adguardhome
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-adguardhome-zh-cn_25.293.14175~5899208_all.ipk
+Size: 3377
+SHA256sum: f07defd03e440af1ccbf591332da86b5bba763b9aae543d43dd4a7201fdd473e
+Description:  Translation for luci-app-adguardhome - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-airconnect-zh-cn
+Version: 25.285.03489~7ccc25e
+Depends: libc, luci-app-airconnect
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-airconnect-zh-cn_25.285.03489~7ccc25e_all.ipk
+Size: 1424
+SHA256sum: 6bde7616133321c59c66f729bb24a83b80a5b96135d052ce5e2af74ae484ea3d
+Description:  Translation for luci-app-airconnect - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-airplay2-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-airplay2
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-airplay2-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 1661
+SHA256sum: 43b3162bb83aecd939f2e304633dcd9307c3f8fe9da528bd713ae2f67babf216
+Description:  Translation for luci-app-airplay2 - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-argon-config-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-argon-config
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-argon-config-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 2331
+SHA256sum: f562524d40d7be51b61a4dc264bdb67e58c98f866cad5e48803f258d332bda6d
+Description:  Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ddnsto-zh-cn
+Version: 25.293.04348~8560865
+Depends: libc, luci-app-ddnsto
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ddnsto-zh-cn_25.293.04348~8560865_all.ipk
+Size: 1414
+SHA256sum: f2ad8aef2b5438baa678702127657d8abfc64d618dab94ef0733a0469e30dd08
+Description:  Translation for luci-app-ddnsto - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-floatip-zh-cn
+Version: 25.293.04348~8560865
+Depends: libc, luci-app-floatip
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-floatip-zh-cn_25.293.04348~8560865_all.ipk
+Size: 1844
+SHA256sum: 509c19572e3d6fb664fe762a62a0605120874037cccd55a3d5e7be049ef8d6cd
+Description:  Translation for luci-app-floatip - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-istoreenhance-zh-cn
+Version: 25.293.04348~8560865
+Depends: libc, luci-app-istoreenhance
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-istoreenhance-zh-cn_25.293.04348~8560865_all.ipk
+Size: 1445
+SHA256sum: 2e477bb3be9352f16fe35489f6be29570be4b1ec1f57c13cc2bb182e5621653b
+Description:  Translation for luci-app-istoreenhance - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-kucat-config-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-kucat
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-kucat-config-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 3234
+SHA256sum: 0baf7e384fc58020fb0483c300ba030c74c80f5b20a2f94f0eb743cc6e351f85
+Description:  Translation for luci-app-kucat - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-linkease-zh-cn
+Version: 25.293.04348~8560865
+Depends: libc, luci-app-linkease
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-linkease-zh-cn_25.293.04348~8560865_all.ipk
+Size: 1654
+SHA256sum: 26fadcd8da72aa7a314764544f3ced32edea8468fb57320a65fc6f4ac192ae67
+Description:  Translation for luci-app-linkease - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-lucky-zh-cn
+Version: 25.285.04111~b10d9ea
+Depends: libc, luci-app-lucky
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-lucky-zh-cn_25.285.04111~b10d9ea_all.ipk
+Size: 2232
+SHA256sum: 2eede76a7b804e15afd9198b5e706c7ebb77894006f82e6d4c5b2aca9c612e5f
+Description:  Translation for luci-app-lucky - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-mentohust-zh-cn
+Version: 25.285.03489~7ccc25e
+Depends: libc, luci-app-mentohust
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mentohust-zh-cn_25.285.03489~7ccc25e_all.ipk
+Size: 1971
+SHA256sum: a23da60202cd8f06060df4542d7574d92a3f9a3f343a5c8c0e243042e221492f
+Description:  Translation for luci-app-mentohust - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-mosdns-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-mosdns
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mosdns-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 5300
+SHA256sum: 9787826831bcd80efcf32bfd210e8e934acb8964ab3c61e82325a8ad8da36e49
+Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-netspeedtest-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-netspeedtest
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-netspeedtest-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 1673
+SHA256sum: 9e6c3fcf161578fa76ad9d79ab163c2cdf7f71c21b39adecd63c3ffd0616df0f
+Description:  Translation for luci-app-netspeedtest - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-openlist2-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-openlist2
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-openlist2-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 3005
+SHA256sum: 70b2c8bfafad76192e96b04391c8185df1901f0e5ee18ab2424c5f4b9e269aa5
+Description:  Translation for luci-app-openlist2 - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-partexp-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-partexp
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-partexp-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 2121
+SHA256sum: 26424619e41ec62ace61a7c72947d81e66a657e5f71e0f481016357a409a9ab4
+Description:  Translation for luci-app-partexp - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-qbittorrent-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-qbittorrent
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-qbittorrent-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 1440
+SHA256sum: ba02a6bc6dc6bde60702f8bda321123606fbff2e3ed40d3c1863bc08ed4bdd04
+Description:  Translation for luci-app-qbittorrent - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-quickfile-zh-cn
+Version: 25.285.03489~7ccc25e
+Depends: libc, luci-app-quickfile
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-quickfile-zh-cn_25.285.03489~7ccc25e_all.ipk
+Size: 1188
+SHA256sum: 239fe12e61fd8d6442691817ae711727419c568db68c36aca9e5b34c49b3f47b
+Description:  Translation for luci-app-quickfile - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-quickstart-zh-cn
+Version: 25.293.04348~8560865
+Depends: libc, luci-app-quickstart
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-quickstart-zh-cn_25.293.04348~8560865_all.ipk
+Size: 1249
+SHA256sum: 4e526414b7e1d42bb4d0c864e26d2a0a86964e6b68e700c08c973bbf101e2267
+Description:  Translation for luci-app-quickstart - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ramfree-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-ramfree
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ramfree-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 1150
+SHA256sum: 706e372d21062d0865f1e67106d8821bdb7be6fbf5d0f9281cd801e72255c25d
+Description:  Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-socat-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-socat
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-socat-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 1603
+SHA256sum: 5f4bff086cc493e29585fef5dc8235232890194d89d4c0ab6669b17c7e2e687f
+Description:  Translation for luci-app-socat - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-unishare-zh-cn
+Version: 25.293.04348~8560865
+Depends: libc, luci-app-unishare
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-unishare-zh-cn_25.293.04348~8560865_all.ipk
+Size: 1928
+SHA256sum: acbf5555db30122a66d19939a77aaf4d7331ecc7ace4837310e863556b634a06
+Description:  Translation for luci-app-unishare - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-usb-printer-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-usb-printer
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-usb-printer-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 1604
+SHA256sum: bdeb88680eeeb0d9378be057689964433b5c12e6bc43f04f563fef1f0537bbb1
+Description:  Translation for luci-app-usb-printer - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-webdav-zh-cn
+Version: 25.285.03489~7ccc25e
+Depends: libc, luci-app-webdav
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-webdav-zh-cn_25.285.03489~7ccc25e_all.ipk
+Size: 1697
+SHA256sum: 2fa8fb010c0fd0d7c066093466af499a354af1ea99e5ef1f9c575ba9d2659f4a
+Description:  Translation for luci-app-webdav - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-wolplus-zh-cn
+Version: 25.284.53914~6c9655f
+Depends: libc, luci-app-wolplus
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-wolplus-zh-cn_25.284.53914~6c9655f_all.ipk
+Size: 1388
+SHA256sum: 9d7a833643b7203f4485614254f547eadcd3a39dc5d12ffbf5fdc40a792f27c8
+Description:  Translation for luci-app-wolplus - 简体中文 (Chinese Simplified)
+
+Package: luci-lib-iform
+Version: 1.1.1-r20221115
+Depends: libc, luci-lib-jsonc, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 307200
+Filename: luci-lib-iform_1.1.1-r20221115_all.ipk
+Size: 108130
+SHA256sum: 85b9b5ebc3ddc7d172c0b6f7c33a59843f499a961e09e0472d6e77a44df752ec
+Description:  Json form library
+
+Package: luci-lib-taskd
+Version: 1.0.24
+Depends: taskd (>=1.0.3), libc, luci-lib-xterm, taskd, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-lib-taskd_1.0.24_all.ipk
+Size: 7401
+SHA256sum: f46be8ca4e9069f72b0d12ceaaab4605d40c711a336a2c08c3bd7a75d0e06b3c
+Description:  Task library
+
+Package: luci-lib-xterm
+Version: 4.18.0
+Depends: libc, luci-lua-runtime
+License: MIT
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 368640
+Filename: luci-lib-xterm_4.18.0_all.ipk
+Size: 78112
+SHA256sum: 2e75549eae3ef37e45bf9522ac1d31c6644d4083fabbf38203cff988e509b7c8
+Description:  Xterm.js library
+
+Package: luci-nginxer
+Version: 0.0.2-r1
+Depends: libc, luci-nginx
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-nginxer_0.0.2-r1_all.ipk
+Size: 1408
+SHA256sum: 684642a42d0c5996f8e3ee15abcdb1c4bc170088644e95031d2203f93250aec2
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: luci-theme-argon
+Version: 2.4.2-r20250207
+Depends: libc, curl, jsonfilter, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 1505280
+Filename: luci-theme-argon_2.4.2-r20250207_all.ipk
+Size: 1100451
+SHA256sum: d8fb1794eb43fa09ab931068877e6128e5933f86f3041e0e8a5b95b761f5ddb8
+Description:  Argon Theme
+
+Package: luci-theme-kucat
+Version: 2.6.18-r20251018
+Depends: libc, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 1320960
+Filename: luci-theme-kucat_2.6.18-r20251018_all.ipk
+Size: 1004659
+SHA256sum: 7b1aabf4cffc134fb45a7ae1e067f42aeb3d401864d26c5f0ebe9bb38da08594
+Description:  Kucat Theme by sirpdboy
+
+Package: lucky
+Version: 2.19.5-r1
+Depends: libc
+License: GPL-3.0-only
+Section: net
+URL: https://github.com/gdy666/lucky
+Architecture: aarch64_cortex-a53
+Installed-Size: 7393280
+Filename: lucky_2.19.5-r1_aarch64_cortex-a53.ipk
+Size: 7379534
+SHA256sum: 06777eeebddffa110da818da0363a076adcd241172aed75b0b8491e8d9de2866
+Description:  Main functions of Lucky: ipv4/ipv6 portforward,ddns,IOT wake on lan ,reverse proxy and more...
+
+Package: mentohust
+Version: 0.3.1-r2
+Depends: libc, libpcap1
+Section: net
+URL: https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: mentohust_0.3.1-r2_aarch64_cortex-a53.ipk
+Size: 82050
+SHA256sum: b47ff0487b32c66060f7b2c899c62170719e8e8911e675de079b16d491d0dc5a
+Description:  A Ruijie Client Daemon,
+ Most usually used in Chinese universities.
+
+Package: quickstart
+Version: 0.11.8-r1
+Depends: libc, shadow-utils, shadow-useradd, mount-utils, block-mount, lsblk, e2fsprogs, parted, smartmontools, smartd, mdadm, ip-full, ubus, uci, bash
+Section: net
+URL: https://easepi.linkease.com/
+Architecture: aarch64_cortex-a53
+Installed-Size: 12400640
+Filename: quickstart_0.11.8-r1_aarch64_cortex-a53.ipk
+Size: 4577752
+SHA256sum: fae00aa4f47f98cde49e52cc05442bde71b856da9400de01124d6092bf65cdf2
+Description:  Quickstart is a dashboard & user guide
+
+Package: rblibtorrent2.0
+Version: 2.0.11-r1
+Depends: libc, boost, boost-system, libatomic1, libgcc1, libopenssl3, libstdcpp6
+Provides: rblibtorrent
+License: BSD
+Section: libs
+URL: https://www.libtorrent.org
+ABIVersion: 2.0
+Architecture: aarch64_cortex-a53
+Installed-Size: 3809280
+Filename: rblibtorrent2.0_2.0.11-r1_aarch64_cortex-a53.ipk
+Size: 1389980
+SHA256sum: 314a0ec1dd42b86c0a4e8fd62c36becccd8446753bc931927648331d91f56f9b
+Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
+ all the other bittorrent implementations around. It is a library and not a
+ full featured client, although it comes with a working example client.
+
+Package: speedtest-cli
+Version: 1.2.0-r1
+Depends: libc, ca-certificates
+Section: net
+URL: https://www.speedtest.net/
+Architecture: aarch64_cortex-a53
+Installed-Size: 2549760
+Filename: speedtest-cli_1.2.0-r1_aarch64_cortex-a53.ipk
+Size: 1075649
+SHA256sum: 346d1536822851109652dffdcbbd81a480e8aa5199fb37c92429ad2697d3d80b
+Description:  The Global Broadband Speed Test
+
+Package: taskd
+Version: 1.0.3-r2
+Depends: libc, procd, script-utils, coreutils, coreutils-stty
+Section: utils
+Architecture: all
+Installed-Size: 10240
+Filename: taskd_1.0.3-r2_all.ipk
+Size: 2376
+SHA256sum: e4fe889c169720081805935f933e46af85e132132e209d2094662f8b306568e2
+Description:  Simple Task Manager based on procd
+
+Package: unishare
+Version: 1.1.0-r1
+Depends: libc, samba4-server, webdav2
+Section: net
+Architecture: all
+Installed-Size: 20480
+Filename: unishare_1.1.0-r1_all.ipk
+Size: 3314
+SHA256sum: 6d3ffe19a5b552e7e7c9d36fb17265b8d8272bbb7a5decdf639466f2f7b08e1a
+Description:  Configure samba, webdav (maybe more?) in one app
+
+Package: v2dat
+Version: 2022.12.15~47b8ee51-r3
+Depends: libc
+License: GPL-3.0
+Section: utils
+URL: https://github.com/urlesistiana/v2dat
+Architecture: aarch64_cortex-a53
+Installed-Size: 5570560
+Filename: v2dat_2022.12.15~47b8ee51-r3_aarch64_cortex-a53.ipk
+Size: 2123450
+SHA256sum: 9132b6e60abf12a955c8a95cccb520e87c0a190e497ef8d4d9ed58bf17168fa2
+Description:  V2ray geo/ip data unpack tools
+
+Package: webdav2
+Version: 4.3.1-r1
+Depends: libc
+License: MIT
+Section: net
+URL: https://github.com/hacdias/webdav
+Architecture: aarch64_cortex-a53
+Installed-Size: 8970240
+Filename: webdav2_4.3.1-r1_aarch64_cortex-a53.ipk
+Size: 3527989
+SHA256sum: 3dceaebe0c97b3bd2bd08d3e6177ef4fedb8dc307942b3b9c83eef1fe51d02f0
+Description:  A Simple Go WebDAV server that supports acls.
+
