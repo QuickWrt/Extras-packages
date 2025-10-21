@@ -64,23 +64,10 @@ jobs:
       run: |
         git config --global user.email "OPPEN321@users.noreply.github.com"
         git config --global user.name "actions-user"
-
-        # 获取当前日期，生成目录名
-        DATE=$(date +%Y%m%d)
-        DIR="R$DATE"
-
-        # 重命名 openwrt 目录
-        mv openwrt "$DIR"
-
-        cd "$DIR"
-
-        # 初始化 git 仓库（如果没有）
+        cd openwrt
         [ ! -d .git ] && git init
-
-        # 添加所有文件并提交
         git add --all
         Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
         git commit -sm "${Emoji[$RANDOM % ${#Emoji[@]}]} Sync $(date '+%Y-%m-%d %H:%M:%S)'" || echo "No changes to commit"
-
         # 强制推送到远端分支
         git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" HEAD:${{ matrix.target }}
